@@ -41,9 +41,9 @@ footer {
 }
 .four {
 }
+
 .button1 {
   margin-left: 0rem;
-  margin-right: 1.5rem;
   margin-top: 0.8rem;
 
   background-color: var(--custom-property);
@@ -391,23 +391,23 @@ h1 {
   color: #000000;
 }
 
-.photo1 {
+.photo2 {
   width: 34.5rem;
   height: 40.7rem;
  
 }
-.photo2 {
+.photo3 {
   width: 16.8rem;
   height: 16.8rem;
 
   
 }
-.photo3 {
+.photo4 {
   width: 16.8rem;
   height: 16.8rem;
   
 }
-.photo4 {
+.photo5 {
   width: 34.5rem;
   height: 40.7rem;
   
@@ -847,11 +847,11 @@ time {
   margin-left: 1.5rem;
   padding: 0rem;
 }
-.about_v_photo {
-  margin: 0 1.5rem;
+.photoup {
+  margin: 0 1.5rem 0 0 ;
   width: 30.805rem;
   height: 30.805rem;
-  transform: rotate(-6.92deg);
+  transform: rotate(-6.92deg) translate(-17.5px, 0);
   
   margin-bottom: 1.5rem;
 }
@@ -897,7 +897,7 @@ time {
   margin-top: 1.5rem;
   gap: 1.5rem;
 }
-.uifoot {
+footer ul {
   margin-left: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -953,8 +953,14 @@ time {
 }
 header {
   display: flex;
+
 }
-.svglink {
+.footerbut{
+  display: flex;
+
+  width: 6.9rem;
+}
+.footerlogo {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-left: 0.5rem;
@@ -1020,8 +1026,7 @@ header {
   margin-right: 4.5rem;
 }
 .logo1 {
-  margin: 1.5rem;
-  margin-right:0rem;
+  margin: 1.5rem 1.5rem 0 1.5rem;
   display: block;
 
   width: 140px;
@@ -1092,11 +1097,14 @@ header {
   text-decoration: none;
   display: none;
 }
-.photo2flex{
+.hide{
+  display: none;
+}
+.collagemini{
   display: flex;
   gap: 0.9rem;
 }
-.photoflex{
+.collage{
   margin: 2.2rem auto;
   display: flex;
   flex-direction: column;
