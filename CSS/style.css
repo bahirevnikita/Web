@@ -32,6 +32,9 @@ footer {
   background-color: black;
   color: white;
 }
+.ol{
+  padding-left: 0rem;
+}
 .twotwo {
   flex-direction: row;
   display: inline-flex;
