@@ -34,6 +34,7 @@ footer {
 }
 .two {
 }
+
 .three {
   background-color: #f9f9f9;
   height: 45.8rem;
@@ -1491,6 +1492,10 @@ filter: blur(187px);
     display: flex;
     flex-direction: row;
     
+  }
+  main{
+    background: url("./../img/bg.png") no-repeat ;
+    background-position: top;
   }
   .uifoot{
     display: none;
